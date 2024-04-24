@@ -1,0 +1,24 @@
+git config --global user.name zup-miau
+git config --global user.email sophiavarasquim987@gmail.com
+
+
+executar, no terminal,1 por vez, em ordem:
+    dotnet new mvc -o Zupflix
+    dotnet new sln --name Zupflix
+    dotnet sln add Zupflix\Zupflix.csproj
+
+- database First / code First
+- Instalar os pacotes necessarios
+
+1 forma - acesse o site nuget.org
+    - 
+
+2 forma - usar a extensão nuget gallery
+    - shift + ctrl +p 
+    - digita nuget 
+    - pesquise e instale os pacotes
+
+    -entityfremeworkcore
+    -entityfremeworkcore.desing
+    -entityfremeworkcore.tools
+    -pomelo.entityfremeworkcore.Mysql
